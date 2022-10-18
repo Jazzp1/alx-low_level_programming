@@ -1,2 +1,2 @@
-0-preprocessor.
-1. compiler.
+#!/bin/bash
+gcc $CFILE -E -o c
