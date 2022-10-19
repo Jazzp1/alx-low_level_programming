@@ -3,7 +3,7 @@
  * main-program entry point.
  * Return: 0 if no error, none zero if error.
  */
-int mai(void)
+int main(void)
 {
 	char i;
 
