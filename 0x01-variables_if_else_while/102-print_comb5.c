@@ -1,4 +1,4 @@
-#include <studio>
+#include <stdio>
 /**
  * main-program entry point.
  *Return: 0 success, non zeros
