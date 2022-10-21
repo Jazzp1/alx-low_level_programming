@@ -2,17 +2,17 @@
 
 /**
  * main-program entry point.
- * Return: 0 if no error, none zero if error. 
+ * Return: 0 
  */
 int main(void)
 {
 	int i;
-	char hexvalues[] = "0123456789abcdef";
+	char hexvalues[] = "01234";
 
-	for (i = 0; i < 16; i++);
+	for (i = 0; i <= 16; i++);
 	{
-		putchar(hexvalue[i]);
+		putchar(hexvalues[i]);
 	}
-		putchar('\n');
-		return (0);
-	}
+	putchar('\n');
+	return (0);
+}
