@@ -4,6 +4,7 @@
  * main-program entry point.
  * Return: 0 
  */
+int main(void)
 {
 	int i;
 	char hexvalues[] = "0123456789abcdef";
