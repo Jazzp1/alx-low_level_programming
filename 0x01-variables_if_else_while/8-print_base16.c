@@ -2,12 +2,12 @@
 
 /**
  * main-program entry point.
- * Return: 0
+ * Return: 0 
  */
 int main(void)
 {
 	int i;
-	char hexvalues[] = "0123456789abcdef";
+	char hexvalues[] = "0123456789abcde";
 
 	for (i = 0; i <= 16; i++)
 	{
