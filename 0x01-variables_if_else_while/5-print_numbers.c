@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
- * main-program entry point.
- * Return: 0 no errors, non zero if error.
+ * main-program entry point
+ * Return: 0 no error, none zero if error.
  */
+
 int main(void)
 {
 	char i;
 
-	for
-		(i = '0'; i <= '9'; i++)
+	for (i = '0', i <= '9'; i++)
 	{
-putchar(i);
+		putchar(i);
+	}
+	
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
-}
-
