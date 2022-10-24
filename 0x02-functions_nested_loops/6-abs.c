@@ -3,7 +3,7 @@
  * _abs - computes the abs value of an int
  * @n: the int in question
  *
- * REtur: the abs of tne int.
+ * Return: the abs of tne int.
  */
 
 int _abs(int n)
